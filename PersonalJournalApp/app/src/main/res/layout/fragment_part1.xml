@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/content"
+    android:elevation="5dp"
+    android:layout_margin="15dp"
+    android:background="@drawable/shadow"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.hp.personaljournalapp.part1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:maxLength="40"
+        android:text="@string/hello_blank_fragment"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_margin="20dp"
+android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/info_text"
+        android:text="@string/hello_blank_fragment"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/date_text"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:text="4/25/2018"
+        android:textColor="#868686"
+        android:textStyle="bold" />
+</LinearLayout>
+
+</LinearLayout>
